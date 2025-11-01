@@ -1,0 +1,71 @@
+body{
+  background: black;
+
+.Menu{ color: aliceblue;
+  
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+  
+}
+.Menu:hover{
+    text-decoration: underline;
+    
+    background: white;
+    color: black;
+}
+}
+.Financeiro{  color: aliceblue;
+       padding: 8px;
+       text-decoration: none;
+       display: inline-block;
+}
+.Financeiro:hover
+{
+     text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+}
+
+.Vendas
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.Vendas:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+
+}
+.Estoque
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.Estoque:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+    
+}
+.RH
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.RH:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+}
