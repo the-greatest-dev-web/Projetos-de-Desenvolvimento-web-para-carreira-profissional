@@ -1,19 +1,125 @@
+
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <style>
-          body {
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: black;
-        }
-        </style>
-    <link rel="stylesheet" href="adm.css">
+<style>
+.Menu{
+color: aliceblue;
+padding: 8px;
+display: inline-block;
+text-decoration: none;
+}
+.Menu: hover{
+text-decoration: underline;
+background: white;
+color: black
+}
+.Financeiro{  color: aliceblue;
+       padding: 8px;
+       text-decoration: none;
+       display: inline-block;
+}
+.Financeiro:hover
+{
+     text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+}
+
+.Vendas
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.Vendas:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+
+}
+.Estoque
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.Estoque:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+    
+}
+.RH
+{     color: aliceblue;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+}
+.RH:hover
+{
+    text-decoration: underline;
+    padding: 8px;
+    background: white;
+    color: black;
+}
+body{
+background: black;
+margin: 0;
+padding:0;
+min-width:100 px;
+max-width:300 px;
+}
+table{
+background: gray;
+}
+.Titulo{
+background: gray;
+width: 1000px;
+padding: 20px;
+vertical-align: 
+}
+.Produto{
+background: gray;
+width: 1000px;
+padding-bottom: 1000px;
+vertical-align: 
+}
+.td{
+ width: 20px;
+padding: 200x;
+}
+.Kilograma{
+background: gray;
+width: 55px;
+padding-bottom: 200px;
+}
+.Qtd{
+background: gray;
+width: 50px;
+padding-bottom: 200px;
+}
+.Peso{
+background: gray;
+width: 55px;
+}
+.Quantidade{
+width: 45px;
+background: gray;
+}
+
+</style>
+
 </head>
+<link rel="stylesheet" href="adm.css">
 <body>
     <br>
     <a class="Menu" href="Menu">Menu</a>
@@ -21,6 +127,21 @@
     <A class="Vendas" href="Vendas">Vendas</A>
     <A class="Estoque" href="Estoque">Estoque</A>
     <A class="RH" href="RH">RH</A>
- 
+
+ <table border>
+<tr>
+<th class="Titulo">Produto</th>
+<th class="Peso">Kg</th>
+<th class="Quantidade">Qtd </th>
+</tr>
+</table>
+<table border>
+<tr>
+<th class="Produto"></th>
+<th class="Kilograma"></th>
+<th class="Qtd"></th>
+</tr>
+</table>
 </body>
 </html>
+
